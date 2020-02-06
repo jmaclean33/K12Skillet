@@ -36,7 +36,6 @@ variables:
       - key: Existing configuration
         value: existing_zones
   - name: workflow_options
-    when: "'new_configuration' in config_type"
     description: select eSports Skillet workflow options
     default: []
     type_hint: checkbox

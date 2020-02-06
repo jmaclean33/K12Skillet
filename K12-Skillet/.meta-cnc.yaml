@@ -26,15 +26,6 @@ variables:
     description: NGFW Password
     default: admin
     type_hint: password
-  - name: config_type
-    description: Create new configuration or merge to existing configuration?
-    default: new_configuration
-    type_hint: dropdown
-    dd_list:
-      - key: New configuration
-        value: new_configuration
-      - key: Existing configuration
-        value: existing_zones
   - name: workflow_options
     description: select eSports Skillet workflow options
     default: []

@@ -13,7 +13,8 @@ extends:
 labels:
   service_type: K12_skillet
   collection:
-    - Education
+      - eSports
+      - Education
 
 # variables used in the configuration templates
 # type_hint defines the form field type in pan-cnc

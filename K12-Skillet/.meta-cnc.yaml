@@ -32,7 +32,7 @@ variables:
     type_hint: dropdown
     dd_list:
       - key: New configuration
-          value: new_configuration
+        value: new_configuration
       - key: Existing configuration
         value: existing_zones
   - name: workflow_options

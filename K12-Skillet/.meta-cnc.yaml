@@ -54,7 +54,6 @@ variables:
         value: load_step2
       - key: (7) load step 3 security policy config elements
         value: load_step3
-
   - name: network_type
     description: Choose to create new zones or use existing zones
     default: l3_gateway
@@ -62,7 +61,6 @@ variables:
     dd_list:
       - key: 2 interface and 2 zone L3 gateway
         value: l3_gateway
-
   - name: add_options
     description: select additional HomeSkillet configuration options
     default: []
